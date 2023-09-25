@@ -48,6 +48,12 @@ iframe {
 }
 
 @media screen and (max-width: 768px) {
+    .image-carousel {
+        object-fit: cover;
+        object-position: 0 80%;
+        height: 120px;
+    }
+
     iframe{
         height: auto;
     }
